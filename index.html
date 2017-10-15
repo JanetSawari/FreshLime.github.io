@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fresh Lime LogIn</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+      body{
+        margin:0;
+        padding:0;
+        background:url("./img/home2.jpg") ;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+        font-family: helvetica,sans-serif;
+        border-radius: 20%;
+
+      }
+
+      .panel{
+        background:rgba(0, 0,0,0.5);
+        border:0px;
+        text-align: center;
+        color: #fff;
+        margin-top: 55px;
+      }
+
+      h4{
+        padding:0;
+        margin: 0;
+        font-size:15px;
+      }
+
+      span{
+        width: 40px;
+        height:40px;
+        line-height:40px;
+        background:#ffff;
+        text-align: center;
+        display:inline-block;
+        border-radius:50%;
+        margin-left: 15px;
+        margin-top:5px;
+        box-shadow: 10px 10px -10px rgba(175, 171, 171, 0.5);
+        background-color:orange;
+        margin-bottom:10px;
+
+      }
+
+      #loginform{
+        width:50%;
+        height:100%;
+      
+      }
+  </style>
+
+</head>
+<body>
+   <div class="container" id="loginform" style="margin-top:100px;">
+     <div class="row">
+       <div class="md-col-4 col-md-offset-4">
+         <div class="panel panel-default">
+           <div class="panel-body">
+             <form action="">
+               <div class="form-group"><input type="email" class="form-control" placeholder="enter email"></div>
+               <div class="form-group"><input type="password" class="form-control" placeholder="enter password"></div>
+               <div class="form-group"><input type="submit" class="btn btn-sucess btn-lg btn-block" value="Log In"></div>
+                  <h4></h4>
+                  <span><i class="fa fa-facebook"></i></span>
+                  <span><i class="fa fa-instagram"></i></span>
+                  <span><i class="fa fa-twitter"></i></span>
+                  <span><i class="fa fa-google-plus"></i></span>   
+                  <h4><a href="#">Forgot your password?</a></h4>
+             </form> 
+            </div>
+         </div><!--this part is the edn of panel-default-->
+       </div>
+     </div>
+   </div>
+  
+</body>
+</html>
